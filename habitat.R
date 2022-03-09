@@ -20,7 +20,7 @@ AIC(mod1,mod2,mod3) #AIC test - identifying the best-fit model
 simulateResiduals(mod1, plot = T) #checking if data meets model assumptions
 
 #creating graphs
-plot(mod1, all.terms = TRUE, pages = 1, shade=TRUE, trans = plogis, select=1, xlab="Depth (m)", ylab="Probability of minke whale sighting") #graphs
-plot(mod1, all.terms = TRUE, pages = 1, shade=TRUE, trans = plogis, select=2, xlab="Sea Surface Temperature (°C)", ylab="Probability of minke whale sighting")
-plot(mod1, all.terms = TRUE, pages = 1, shade=TRUE, trans = plogis, select=3, xlab="Chlorophyll a (mg/m3)", ylab="Probability of minke whale sighting")
-plot(mod1, all.terms = TRUE, pages = 1, shade=TRUE, trans = plogis, select=4, xlab="Sediment", ylab="Probability of minke whale sighting")
+plot(mod1, all.terms = TRUE, pages = 1, shade=TRUE, trans = plogis, select=1, xlab="Depth (m)") #graphs
+plot(mod1, all.terms = TRUE, pages = 1, shade=TRUE, trans = plogis, select=2, xlab="Sea Surface Temperature (Â°C)")
+plot(mod1, all.terms = TRUE, pages = 1, shade=TRUE, trans = plogis, select=3, xlab="Chlorophyll a (mg/m3)")
+plot(mod1, all.terms = TRUE, pages = 1, shade=TRUE, trans = plogis, select=4, xlab="Sediment")
